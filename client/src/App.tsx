@@ -1,4 +1,33 @@
+import { useState, useEffect } from 'react'
+import AdminLogin from './pages/AdminLogin'
+import AdminDashboard from './pages/AdminDashboard'
+
 function App() {
+  const [currentPath, setCurrentPath] = useState(window.location.pathname)
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPath(window.location.pathname)
+    }
+    
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
+  const navigate = (path: string) => {
+    window.history.pushState({}, '', path)
+    setCurrentPath(path)
+  }
+
+  // Routing
+  if (currentPath === '/admin/login') {
+    return <AdminLogin />
+  }
+  
+  if (currentPath === '/admin') {
+    return <AdminDashboard />
+  }
+
   return (
     <div style={{
       minHeight: '100vh',
@@ -98,7 +127,9 @@ function App() {
               <p style={{ fontSize: '0.875rem', color: '#9ca3af', marginBottom: '1.5rem' }}>
                 管理者ログインから組織・イベント・写真の管理が可能です
               </p>
-              <button style={{
+              <button 
+                onClick={() => navigate('/admin/login')}
+                style={{
                 backgroundColor: '#3b82f6',
                 color: 'white',
                 padding: '0.75rem 1.5rem',
