@@ -1,0 +1,19 @@
+{
+  "task": 107,
+  "state": "seq23_closed_candidate_verified_issuance_prohibited",
+  "sequence": 23,
+  "active": 0,
+  "independentTestsPassed": 26,
+  "actualNonMutationPreflightPassed": true,
+  "actualPrepareCalled": false,
+  "actualIssueCalled": false,
+  "reservationCreated": false,
+  "realLambdaVerified": false,
+  "packetSHA": "f4fddc0fe1178687935906919b7aed96d51859632173b2f1a0b7cb741ac10fb6",
+  "sourcePinsSHA": "3459439b98bdf86b8e41b940002de7d7b83af866d627290136b959449e68d3bb",
+  "vendorSHA": "267e828c767dad5f8ddf2d6d41004107c67ff7fb8e3b632e800e44329d063c95",
+  "evidenceSHA": "cf124fd19edaca018d570d4ba8f64b8640f13ae92072d7aa3361335a644598be",
+  "budgetChangesAllowed": false,
+  "newReservationIssueRunAllowed": false,
+  "exactPrivateState": "STATE.json in separately transferred private-transfer folder"
+}

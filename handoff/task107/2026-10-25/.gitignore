@@ -1,0 +1,16 @@
+# Defense in depth: upload only reviewed text from this directory.
+*.zip
+*.tar
+*.gz
+*.whl
+*.pem
+*.key
+*.p12
+*.pfx
+.env*
+auth.json
+credentials*
+private-transfer/
+payload/
+.DS_Store
+__pycache__/
