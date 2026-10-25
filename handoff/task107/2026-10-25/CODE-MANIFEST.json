@@ -1,0 +1,38 @@
+{
+  "sourcePacketSHA": "f4fddc0fe1178687935906919b7aed96d51859632173b2f1a0b7cb741ac10fb6",
+  "files": {
+    "patch_runtime.py": {
+      "bytes": 4580,
+      "sha256": "69231ad70e9124399682907287fd02a6f79b4bf28af07da5204e018d3b813aaf"
+    },
+    "build_vendor.py": {
+      "bytes": 2941,
+      "sha256": "c6694f893706a48b7d50ff69811f862e6d32ba8509b81fcb110d48a6e155fa60"
+    },
+    "test_runtime_delta.py": {
+      "bytes": 4660,
+      "sha256": "f733d8d432661fd450a3410143021608d07bf5211e1d744cd099811adf896458"
+    },
+    "test_vendor.py": {
+      "bytes": 1478,
+      "sha256": "03be2db5c471be393ce3ff73733f28ed9baee0c627d40acb37fe7729f9416997"
+    },
+    "test_vendor_gate.py": {
+      "bytes": 1039,
+      "sha256": "7acc9501753b9dfe5fe2fc88c15db0d7f1baf0395409a2f1173b0d02975e2be0"
+    },
+    "LAMBDA-WHEEL-PIN.json": {
+      "bytes": 395,
+      "sha256": "697f5e03cfb03517d880db4d1f128c7401090bdb1444bccde27d7fc60b8024a9"
+    },
+    "VENDOR-PARENT-SHA.txt": {
+      "bytes": 65,
+      "sha256": "3803cd1e58d3f87a833ef17f1f0006bef38615b424e6386956e5a012c143ea45"
+    },
+    "ELF-ABI-OBSERVATION.json": {
+      "bytes": 248,
+      "sha256": "5a9a6beea9723430d364d65e8376c96f3f81854419dbc3b8dc5d21eba3e120f8"
+    }
+  },
+  "fullPrivatePacketIncluded": false
+}

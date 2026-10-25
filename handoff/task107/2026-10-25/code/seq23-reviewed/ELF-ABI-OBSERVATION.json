@@ -1,0 +1,13 @@
+{
+  "AWSExecuted": false,
+  "ELFGLIBCReferences": [
+    "2.2",
+    "2.3",
+    "2.7",
+    "2.12",
+    "2.14",
+    "2.17"
+  ],
+  "realLambdaExecutionVerified": false,
+  "wheelSHA": "630ebfea3bf689d075f82316324ff7433dc447fe6bc1bfc76524b74b4a9567d2"
+}
